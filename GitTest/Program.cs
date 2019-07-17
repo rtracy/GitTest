@@ -11,5 +11,11 @@ namespace GitTest
         static void Main(string[] args)
         {
         }
+
+        private static void A()
+        {
+
+        }
+
     }
 }
