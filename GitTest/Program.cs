@@ -14,7 +14,7 @@ namespace GitTest
 
         private static void A()
         {
-
+            Console.WriteLine("Change D-A");
         }
 
         private static void B()
