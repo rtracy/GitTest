@@ -17,5 +17,10 @@ namespace GitTest
 
         }
 
+        private static void B()
+        {
+
+        }
+
     }
 }
