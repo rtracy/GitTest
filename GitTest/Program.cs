@@ -22,5 +22,10 @@ namespace GitTest
 
         }
 
+        private static void C()
+        {
+
+        }
+
     }
 }
