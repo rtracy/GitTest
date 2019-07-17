@@ -19,7 +19,7 @@ namespace GitTest
 
         private static void B()
         {
-
+            Console.WriteLine("B - Aware");
         }
 
         private static void C()
