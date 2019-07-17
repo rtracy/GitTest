@@ -10,6 +10,7 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
+            C();
         }
 
         private static void A()
@@ -24,7 +25,11 @@ namespace GitTest
 
         private static void C()
         {
-
+            Console.BackgroundColor = ConsoleColor.DarkMagenta;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Hello world!");
+            Console.ResetColor();
+            Console.WriteLine("bye world!");
         }
 
     }
